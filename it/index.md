@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Homepage di esempio
-description: Questo è un esempio di homepage con utilizzo del componente "hero"
+title: Home 
+description: Benvenuti in Open Education Polito 
 lang: it
 ref: homepage
 permalink: /
