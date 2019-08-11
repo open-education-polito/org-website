@@ -7,4 +7,6 @@ permalink: /it/contatti
 order: 20
 ---
 
-Pagina "Contatti"
+### Membri 
+
+{% include people.html status='admin' %}
