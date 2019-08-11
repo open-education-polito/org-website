@@ -1,7 +1,7 @@
-<h4><a href="#" title="Vai alla pagina: Contatti">Contatti</a></h4>
-<p>
-  <strong>Indirizzo Mail</strong><br>fare [AT] polito [DOT] it 
-</p>
-<p>
-  <small>Version 0.0.1</small>
-</p>
+<ul class="list-inline">
+<li class="list-inline-item"><a href="{{ site.baseurl }}/it/contatti" title="Vai alla pagina: Contatti">Contatti</a></li>
+{% for footer-link in site.data.t.footer-links[page.lang] %}
+<li class="list-inline-item"><a class="list-inline-item" href="{{ site.baseurl }}{{ footer-link[1].url }}" title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
+{% endfor %}
+<small>Version 0.0.1</small>
+</ul>
