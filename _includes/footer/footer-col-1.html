@@ -1,7 +1,7 @@
 <ul class="list-inline">
-<li class="list-inline-item"><a href="{{ site.baseurl }}/it/contatti" title="Vai alla pagina: Contatti">Contatti</a></li>
+<li class="list-inline-item "><a class="footlink" href="{{ site.baseurl }}/it/contatti" title="Vai alla pagina: Contatti">Contatti</a></li>
 {% for footer-link in site.data.t.footer-links[page.lang] %}
-<li class="list-inline-item"><a class="list-inline-item" href="{{ site.baseurl }}{{ footer-link[1].url }}" title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
+<li class="list-inline-item "><a class="list-inline-item footlink" href="{{ site.baseurl }}{{ footer-link[1].url }}" title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
 {% endfor %}
 <small>Version 0.0.1</small>
 </ul>

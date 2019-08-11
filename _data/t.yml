@@ -45,6 +45,7 @@ footer-links:
     privacy-policy:
       name: "Privacy policy"
       url: "/it/privacy-policy"
-    cookie-policy:
-      name: "Cookie Policy"
-      url: "/it/cookie-policy"
+    contatti:
+      name: "Contatti"
+      url: "/it/contatti"
+
