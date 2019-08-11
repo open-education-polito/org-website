@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Chi siamo
+title: Membri
 lang: it
-ref: about-us
-permalink: /it/chi-siamo
+ref: members 
+permalink: /it/membri
 order: 2
 ---
 
