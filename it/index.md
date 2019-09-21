@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home 
-description: Benvenuti in Open Education Polito 
+description: Il portale di Open Education Polito 
 lang: it
 ref: homepage
 permalink: /
