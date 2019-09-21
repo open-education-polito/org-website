@@ -1,7 +1,11 @@
 ---
 layout: default
 title: Home 
-description: Il portale di Open Education Polito 
+description: Open Education Polito homepage 
+hero_title: Software Libero, Educazione Libera
+hero_description: Open Education Polito è il gruppo che da venti anni si dedica alla ricerca e sviluppo di tecnologie innovative libere per la didattica inclusiva
+
+
 lang: it
 ref: homepage
 permalink: /
