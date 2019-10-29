@@ -7,8 +7,15 @@ permalink: /it/contatti
 order: 20
 ---
 
+Il gruppo opera presso l'ufficio del Professor Angelo Raffaele Meo situato al
+terzo piano del DAUIN. 
 
-Per contattare il gruppo di lavoro è possibile utilizzare <a href="mailto:fare@polito.it">questo</a> indirizzo mail .
+Per contattare il gruppo di lavoro è possibile utilizzare <a
+href="mailto:fare@polito.it">questo</a> indirizzo mail.
+
+Segue una lista dei membri attivi del progetto e degli attuali collaboratori.
 
 ### Membri 
-{% include people.html status='admin' %}
+{% include people.html status='admin'%}
+
+
