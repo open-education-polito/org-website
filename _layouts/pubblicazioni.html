@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  {%- include styles.html -%}
+  {%- include meta.html -%}
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+  <script>
+  // Initialize DataTable
+  $(document).ready( function () {
+      $('#table_id').DataTable();
+  } );
+  </script>
+</head>
+<body>
+  {%- include scripts.html -%}
+  {%- include header/header.html -%}
+    <div class="container my-2">
+          {%- include breadcrumbs.html -%}
+    </div>
+
+    {% assign section = breadcrumbs[0] | default: page %}
+
+    <article class="container my-4">
+
+      <h1>{{ page.title }}</h1>
+
+      <div class="entry">
+        {{ content }}
+      </div>
+    </article>
+  {%- include footer/footer.html -%}
+  {%- include cookiebar.html -%}
+</body>
+</html>
