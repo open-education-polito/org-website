@@ -1,6 +1,8 @@
 # Open Education Polito Website
 
-## Getting started
+This website is built using Jekyll.
+
+## Getting started for a local deployment
 
 `bundle install`
 
@@ -18,6 +20,9 @@ The aforementioned addition of `_config_dev.yml` is needed to run the server on
 http://localhost:4000 without any subpath.
 
 # Copyright note
+
+This website is build by @libremente.
+Copyright <surf> AT <libremente> DOT <eu>.
 
 ## Base theme 
 The base theme is
