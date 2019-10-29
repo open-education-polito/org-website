@@ -29,4 +29,5 @@ The base theme is
 [design-jekyll-theme](https://github.com/italia/design-jekyll-theme)
 developed by Team per la Trasformazione Digitale. 
 
-
+# LICENSE
+This project is licensed under a BSD-3-Clause license.
