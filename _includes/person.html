@@ -13,15 +13,20 @@
 {% endif %}
 
 <div class="credits-{{ personclass }} {{ colclass }}">
-  <div class="credits-{{ personclass }}-img">
-    <img src="{{ p.pic }}" class="img-fluid">
+  <div class="avatar size-xxl">
+  {% if p.pic != nil %}
+    <img src="{{ p.pic }}" class="">
+  {% else %}
+    <p aria-hidden="true">{{ p.iniziali }}</p>
+    <span class="sr-only">{{ p.name }}</span>
+  {% endif %}
   </div>
   <div class="credits-{{ personclass }}-info">
     <div class="credits-{{ personclass }}-name">
-      {{ p.name }}
+      <b>{{ p.name }}</b>
     </div>
     <div class="credits-{{ personclass }}-role">
-      {{ p.role }}
+      <i>{{ p.role }}</i>
     </div>
     {% if p.desc %}
     <!--<div class="credits-{{ personclass }}-desc">{{ p.desc }}</div>-->

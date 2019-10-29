@@ -4,6 +4,9 @@
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
   {%- include styles.html -%}
   {%- include meta.html -%}
+</head>
+<body>
+  {%- include scripts.html -%}
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
   <script>
@@ -12,9 +15,7 @@
       $('#table_id').DataTable();
   } );
   </script>
-</head>
-<body>
-  {%- include scripts.html -%}
+
   {%- include header/header.html -%}
     <div class="container my-2">
           {%- include breadcrumbs.html -%}
@@ -28,6 +29,24 @@
 
       <div class="entry">
         {{ content }}
+        <table id="table_id" class="display">
+            <thead>
+                <tr>
+                    <th>Anno</th>
+                    <th>Titolo</th>
+                    <th>Autori</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for conf in site.data.pubblicazioni %}
+                <tr>
+                    <td>{{ conf[1].year}}</td>
+                    <td><a href="{{ conf[1].link }}">{{ conf[1].name}}</a></td>
+                    <td>{{ conf[1].author}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
       </div>
     </article>
   {%- include footer/footer.html -%}
