@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<div class="container my-2">
+      {%- include breadcrumbs.html -%}
+</div>
+
+{% assign section = breadcrumbs[0] | default: page %}
+
 <article class="container my-4">
 
   <h1>{{ page.title }}</h1>
