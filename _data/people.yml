@@ -1,16 +1,37 @@
 meo:
   name: Angelo Raffaele Meo 
-  pic: /assets/images/?
+  pic: /assets/images/meo.jpg
   role: Politecnico di Torino 
+  iniziali: AR
+  member: true 
 leo:
   name: Leonardo Favario 
-  pic: /assets/images/?
+  pic: /assets/images/leo.jpg
   role: Politecnico di Torino
+  iniziali: LF
 mario:
   name: Mario Scovazzi 
-  pic: /assets/images/?
+  pic: 
   role: Indipendente 
+  iniziali: MS
 aurora:
   name: Aurora 
-  pic: /assets/images/?
+  pic: 
+  role: CNR 
+  iniziali: AM
+clo:
+  name: Clotilde
+  pic:
+  role: Indipendente
+  iniziali: CM
+sophia:
+  name: Sophia
+  pic:
+  role: Indipendente
+  iniziali: SD
+venuto:
+  name: Enrico
+  pic:
   role: Politecnico di Torino
+  iniziali: EV
+  member: false
