@@ -21,8 +21,8 @@ http://localhost:4000 without any subpath.
 
 # Copyright note
 
-This website is build by @libremente.
-Copyright <surf> AT <libremente> DOT <eu>.
+This website is build by @libremente.  
+Copyright `<surf> AT <libremente> DOT <eu>`.
 
 ## Base theme 
 The base theme is
