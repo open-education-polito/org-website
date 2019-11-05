@@ -2,7 +2,7 @@
 layout: page
 title: Il Gruppo 
 lang: it
-ref: projects
+ref: gruppo 
 permalink: /it/gruppo
 order: 2
 ---

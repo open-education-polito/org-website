@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: ppage
 title: Progetti 
 lang: it
-ref: projects
+ref: progetti 
 permalink: /it/progetti
 order: 3
 ---
