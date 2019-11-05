@@ -17,5 +17,3 @@ Segue una lista dei membri attivi del progetto e degli attuali collaboratori.
 
 ### Membri 
 {% include people.html status='admin'%}
-
-
