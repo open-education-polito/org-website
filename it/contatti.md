@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple-page
 title: Contatti
 lang: it
 ref: contacts 
