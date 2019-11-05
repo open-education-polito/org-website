@@ -1,18 +1,6 @@
-{% if include.person.first == nil %}
-{% assign p = site.data.people[include.person] %}
-{% else %}
 {% assign p = include.person[1] %}
-{% endif %}
-
-{% if p.status == 'admin' %}
-{% assign personclass = "person" %}
-{% assign colclass = 'col-sm-6' %}
-{% else %}
-{% assign personclass = "communityleader" %}
-{% assign colclass = 'col-sm-4' %}
-{% endif %}
-
-<div class="col-4" style="text-align: center; padding-bottom: 2.5em;">
+{% if p.status != nil and p.status == include.active %}
+<div class="col-4" style="text-align: center; padding: 2.5em;">
   <div class="avatar size-xxl">
   {% if p.pic != nil %}
     <img src="{{ p.pic }}"> 
@@ -21,11 +9,11 @@
     <span class="sr-only">{{ p.name }}</span>
   {% endif %}
   </div>
-  <div class="credits-{{ personclass }}-info">
-    <div class="credits-{{ personclass }}-name">
+  <div class="credits-person-info">
+    <div class="credits-person-name">
       <b>{{ p.name }}</b>
     </div>
-    <div class="credits-{{ personclass }}-role">
+    <div class="credits-person-role">
       <i>{{ p.role }}</i>
     </div>
     {% if p.desc %}
@@ -48,7 +36,6 @@
     {% endif %}
   </div>
 </div>
-<!--/credits-person-->
-
+{% endif %}
 
 

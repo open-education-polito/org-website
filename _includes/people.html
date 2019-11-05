@@ -1,5 +1,5 @@
 <div class="row">
 {% for person in site.data.people %}
-{% include person.html person=person %}
+    {% include person.html person=person active=include.active%}
 {% endfor %}
 </div>

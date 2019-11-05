@@ -3,35 +3,40 @@ meo:
   pic: /assets/images/meo.jpg
   role: Politecnico di Torino 
   iniziali: AR
-  member: true 
+  status: member 
 leo:
   name: Leonardo Favario 
   pic: /assets/images/leo.jpg
   role: Politecnico di Torino
   iniziali: LF
+  status: member 
 mario:
   name: Mario Scovazzi 
   pic: 
   role: Indipendente 
   iniziali: MS
+  status: member 
 aurora:
   name: Aurora 
   pic: 
   role: CNR 
   iniziali: AM
+  status: member 
 clo:
   name: Clotilde
   pic:
   role: Indipendente
   iniziali: CM
+  status: member 
 sophia:
   name: Sophia
   pic:
   role: Indipendente
   iniziali: SD
+  status: member 
 venuto:
   name: Enrico
   pic:
   role: Politecnico di Torino
   iniziali: EV
-  member: false
+  status: collaborator 

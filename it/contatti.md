@@ -16,4 +16,7 @@ href="mailto:fare@polito.it">questo</a> indirizzo mail.
 Segue una lista dei membri attivi del progetto e degli attuali collaboratori.
 
 ### Membri 
-{% include people.html status='admin'%}
+{% include people.html active='member'%}
+
+### Collaboratori
+{% include people.html active='collaborator'%}
