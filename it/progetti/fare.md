@@ -1,5 +1,5 @@
 ---
-layout: ppage
+layout: page
 title: FARE 
 lang: it
 ref: fare 
