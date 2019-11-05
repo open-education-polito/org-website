@@ -1,5 +1,6 @@
 <div class="row">
-{% for person in site.data.people %}
+{% assign people = site.data.people | sort: name %}
+{% for person in people %}
     {% include person.html person=person active=include.active%}
 {% endfor %}
 </div>
