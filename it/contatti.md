@@ -13,7 +13,8 @@ terzo piano del DAUIN.
 Per contattare il gruppo di lavoro è possibile utilizzare <a
 href="mailto:fare@polito.it">questo</a> indirizzo mail.
 
-Segue una lista dei membri attivi del progetto e degli attuali collaboratori.
+Segue una lista dei membri attivi del progetto e dei collaboratori in
+ordine alfabetico.
 
 ### Membri 
 {% include people.html active='member'%}
