@@ -40,3 +40,15 @@ venuto:
   role: Politecnico di Torino
   iniziali: EV
   status: collaborator 
+eugenio:
+  name: Eugenio
+  pic:
+  role: Borsista
+  iniziali: EC
+  status: member
+gabriele:
+  name: Gabriele 
+  pic:
+  role: Borsista
+  iniziali: GC
+  status: member
