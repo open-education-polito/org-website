@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple-page
 title: Il Gruppo 
 lang: it
 ref: gruppo 
