@@ -37,3 +37,16 @@ moltissimi paesi.
 Tutti i progetti qui presentati rappresentano contributi importanti
 alla **diffusione** della *open education* non soltanto nel nostro Paese.
 
+## Collaborazioni 
+### Progetti di ricerca
+Se gli ambiti di ricerca e sviluppo illustrati in questo portale dovessero
+essere d'interesse è possibile avviare delle collaborazioni con il gruppo.
+Per saperne di più l'invito è quello di consultare la sezione
+[contatti](contatti.md) e mettersi in contatto con qualche membro del gruppo. 
+
+### Sviluppo di codice
+Tutto il codice sorgente dei software sviluppati dal gruppo è disponibile su
+[Github](https://github.com/open-education-polito).   
+Su tale piattaforma è possibile utilizzare gli strumenti di interazione tipici
+delle community del software libero (issue / pull request). 
+
