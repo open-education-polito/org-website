@@ -2,7 +2,7 @@ smartcities:
   name: Tre iniziative per l’insegnamento dell’informatica nella scuola 
   year: 2018
   location: Italy 
-  author: L. Favario, A.R. Meo
+  author: A. Martina, C. Moro, A.R. Meo, L. Favario
   link: https://iris.polito.it/handle/11583/2711192
 mondodigitale:
   name: "FARE: A New Free Architecture for Remote Education"
@@ -10,3 +10,39 @@ mondodigitale:
   location: Italy
   author: L. Favario, A.R. Meo, E. Masala
   link: https://iris.polito.it/handle/11583/2599354
+educon:
+  name: "Work-in-Progress: Integrating a Remote Laboratory System in an Online Learning Environment"
+  year: 2016
+  location: Abu Dhabi, UAE
+  author: L. Favario, E. Masala
+  link: https://iris.polito.it/handle/11583/2651190?mode=full.6163
+imcl:
+  name: "Web Based Learning Framework: a Python Case Study"
+  year: 2018
+  location: Hamilton, CA
+  author: L. Favario
+  link: https://iris.polito.it/handle/11583/2717464?mode=full.8365
+lwmoocs:
+  name: A Comprehensive MOOC Creation Approach
+  year: 2018
+  location: Madrid, ES
+  author: L. Favario
+  link: https://iris.polito.it/handle/11583/2716143?mode=full.8365
+tale:
+  name: "Remote Programming Environments: the Robotic Laboratory Case"
+  year: 2018
+  location: Wollongong, AU
+  author: L. Favario
+  link: https://iris.polito.it/handle/11583/2762912?mode=full.9346
+compsac:
+  name: "A New Platform for Cross-Repository Creation of Educational Paths: Architecture and a Case Study"
+  year: 2015
+  location: Taichung, TW
+  author: L. Favario, A.R. Meo, E. Masala
+  link: https://iris.polito.it/handle/11583/2639981?mode=full.6163 
+fie:
+  name: Seamless Cross-Platform Integration of Educational Resources for Improved Learning Experiences
+  year: 2015
+  location: El Paso, TX
+  author: L. Favario, A.R. Meo, E. Masala
+  link: https://iris.polito.it/handle/11583/2639982?mode=full.6163
