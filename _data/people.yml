@@ -12,7 +12,7 @@ leo:
   status: member 
 mario:
   name: Mario Scovazzi 
-  pic: 
+  pic: /assets/images/mario.jpg
   role: Indipendente 
   iniziali: MS
   status: member 
@@ -42,13 +42,13 @@ venuto:
   status: collaborator 
 eugenio:
   name: Eugenio
-  pic:
-  role: Borsista
+  pic: /assets/images/eugenio.jpg
+  role: Politecnico di Torino
   iniziali: EC
   status: member
 gabriele:
   name: Gabriele 
-  pic:
-  role: Borsista
+  pic: /assets/images/gabriele.jpg
+  role: Politecnico di Torino 
   iniziali: GC
   status: member
