@@ -17,19 +17,19 @@ mario:
   iniziali: MS
   status: member 
 aurora:
-  name: Aurora 
+  name: Aurora Martina
   pic: 
-  role: CNR 
+  role: Indipendente 
   iniziali: AM
   status: member 
 clo:
-  name: Clotilde
+  name: Clotilde Moro
   pic:
   role: Indipendente
   iniziali: CM
   status: member 
 sophia:
-  name: Sophia
+  name: Sophia Danesino
   pic:
   role: Indipendente
   iniziali: SD
@@ -41,13 +41,13 @@ venuto:
   iniziali: EV
   status: collaborator 
 eugenio:
-  name: Eugenio
+  name: Eugenio Corso
   pic: /assets/images/eugenio.jpg
   role: Politecnico di Torino
   iniziali: EC
   status: member
 gabriele:
-  name: Gabriele 
+  name: Gabriele Corso
   pic: /assets/images/gabriele.jpg
   role: Politecnico di Torino 
   iniziali: GC
