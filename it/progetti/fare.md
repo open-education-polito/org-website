@@ -5,6 +5,7 @@ lang: it
 ref: fare 
 child_of_ref: progetti
 permalink: /it/progetti/fare
+
 order: 3
 ---
 **FARE**, acronimo di *“Free Architecture for Remote Education”*, è un grande
@@ -17,7 +18,7 @@ pubblicati sono coperti da licenze **Creative Commons**.
 
 Le caratteristiche in sintesi:
 - Oltre 1500 filmati di conferenze divulgative.  
-- 150 conferenze dell’Accaademia delle Scienze di Torino.  
+- 150 conferenze dell’Accademia delle Scienze di Torino.  
 - Materiali didattici interattivi 
 - Libri di testo per la scuola secondaria di secondo grado 
 - Tre libri di testo di informatica per la scuola primaria e secondaria di primo
@@ -25,6 +26,8 @@ grado
 - Materiale didattico vario per l'insegnamento di Scienze nelle scuole di
 ogni ordine e grado 
 - Altro materiale scientifico e didattico.
+
+Il portale è raggiungibile attraverso questo [link](https://fare.polito.it).
 
 ## FARE 2.0
 Dato il rilevante successo e la diffusione della prima versione di FARE il
