@@ -7,7 +7,7 @@ permalink: /it/contatti
 order: 20
 ---
 
-Il gruppo si riunisce presso l'ufficio del Professor Angelo Raffaele Meo situato al
+Il gruppo si riunisce presso l'ufficio del Professor *Angelo Raffaele Meo* situato al
 terzo piano del DAUIN. 
 
 Per contattare il gruppo di lavoro è possibile utilizzare l'indirizzo mail <a
