@@ -125,7 +125,7 @@ od omissioni è pregato di contattare gli autori. Provvederemo immediatamente
 alle necessarie correzioni.  
 
 <div style="text-align: center; padding: 2em;">
-<a class="btn btn-success btn-lg btn-icon" href="../../assets/repo/libro_storia_prima_parte.pdf">
+<a class="btn btn-success btn-lg btn-icon" href="../../assets/repo/libro_storia_completo.pdf">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
