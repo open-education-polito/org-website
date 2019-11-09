@@ -27,7 +27,17 @@ grado
 ogni ordine e grado 
 - Altro materiale scientifico e didattico.
 
-Il portale è raggiungibile attraverso questo [link](https://fare.polito.it).
+<div style="text-align: center; padding: 2em;">
+<a class="btn btn-success btn-lg btn-icon" href="https://fare.polito.it">
+<span class="rounded-icon">
+<svg class="icon icon-success">
+<use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+</svg>
+</span>
+<span>Visita il portale</span>
+</a>
+</div>
+
 
 ## FARE 2.0
 Dato il rilevante successo e la diffusione della prima versione di FARE il
