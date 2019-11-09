@@ -44,9 +44,14 @@ essere d'interesse è possibile avviare delle collaborazioni con il gruppo.
 Per saperne di più l'invito è quello di consultare la sezione
 [contatti](contatti.md) e mettersi in contatto con qualche membro del gruppo. 
 
-### Sviluppo di codice
-Tutto il codice sorgente dei software sviluppati dal gruppo è disponibile su
+### Sviluppo di software didattico
+Una delle finalità del gruppo è lo sviluppo di software a sfondo didattico.
+Tutto il codice sorgente dei software sviluppati è disponibile su
 [Github](https://github.com/open-education-polito).   
 Su tale piattaforma è possibile utilizzare gli strumenti di interazione tipici
 delle community del software libero (issue / pull request). 
+
+### Rilascio di software didattico
+Il gruppo offre supporto alla condivisione del codice sorgente di progetti
+software seguendo la filosofia e gli approcci tipici del *Software Libero*. 
 

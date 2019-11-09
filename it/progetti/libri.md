@@ -4,7 +4,7 @@ title: Libri di testo
 lang: it
 ref: libri 
 child_of_ref: progetti
-permalink: /it/libri
+permalink: /it/progetti/libri
 order: 4
 ---
 
@@ -32,7 +32,7 @@ fanno diretto riferimento agli algoritmi descritti nei singoli capitoli del
 testo. I riferimenti ai videogiochi didattici si possono trovare nella sezione
 [videogiochi](videogiochi.md) di questo portale web.
 
-<div style="text-align: center;">
+<div style="text-align: center; padding: 2em;">
 <button class="btn btn-success btn-lg btn-icon">
 <span class="rounded-icon">
 <svg class="icon icon-success">
@@ -81,7 +81,7 @@ Il primo di tali strumenti è un ambiente di sviluppo web per Python che
 permette di scrivere, eseguire e correggere gli eventuali errori, il tutto
 utilizzando tranquillamente il proprio browser. 
 
-<div style="text-align: center;">
+<div style="text-align: center; padding: 2em;">
 <button class="btn btn-success btn-lg btn-icon">
 <span class="rounded-icon">
 <svg class="icon icon-success">
@@ -124,7 +124,7 @@ le norme indicate per il loro utilizzo. Nel caso qualcuno riscontrasse errori
 od omissioni è pregato di contattare gli autori. Provvederemo immediatamente
 alle necessarie correzioni.  
 
-<div style="text-align: center;">
+<div style="text-align: center; padding: 2em;">
 <button class="btn btn-success btn-lg btn-icon">
 <span class="rounded-icon">
 <svg class="icon icon-success">

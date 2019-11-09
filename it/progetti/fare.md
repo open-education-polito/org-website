@@ -4,7 +4,7 @@ title: FARE
 lang: it
 ref: fare 
 child_of_ref: progetti
-permalink: /it/fare
+permalink: /it/progetti/fare
 order: 3
 ---
 **FARE**, acronimo di *“Free Architecture for Remote Education”*, è un grande
@@ -25,3 +25,10 @@ grado
 - Materiale didattico vario per l'insegnamento di Scienze nelle scuole di
 ogni ordine e grado 
 - Altro materiale scientifico e didattico.
+
+## FARE 2.0
+Dato il rilevante successo e la diffusione della prima versione di FARE il
+gruppo, forte dei riscontri ottenuti da parte di tutti i soggetti interessati
+nel suo uso, sta attualmente sviluppando una nuova versione del portale. 
+Per seguire gli avanzamenti o supportarne lo sviluppo è possibile consultare la
+pagina [del repository](https://github.com/open-education-polito/fare-invenio).
