@@ -18,7 +18,7 @@ jobs:
       - run: ssh-keyscan -p $PORT $SERVER -H >> ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
       - run: bundle exec jekyll build
-      - run: cp -r ./github ./_site/
+      - run: ls -lah 
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx 
       - run: 
           name: Push on server
