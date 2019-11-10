@@ -30,7 +30,7 @@ attuale presenta una caratteristica innovativa rispetto alle edizioni
 precedenti. Infatti, il testo è integrato da alcuni videogiochi didattici che
 fanno diretto riferimento agli algoritmi descritti nei singoli capitoli del
 testo. I riferimenti ai videogiochi didattici si possono trovare nella sezione
-[videogiochi](videogiochi.md) di questo portale web.
+[videogiochi](videogiochi) di questo portale web.
 
 <div style="text-align: center; padding: 2em;">
 <button class="btn btn-success btn-lg btn-icon">
