@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/open-education-polito/website/tree/master.svg?style=svg)](https://circleci.com/gh/open-education-polito/website/tree/master)
 # Open Education Polito Website
 
 This website is built using Jekyll.
