@@ -37,7 +37,7 @@ footer-links:
   en:
     privacy-policy:
       name: "Privacy policy"
-      url: "/en/privacy-policy"
+      url: "https://www.polito.it/privacy/"
     cookie-policy:
       name: "Cookie Policy"
       url: "/en/cookie-policy"
