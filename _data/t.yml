@@ -44,7 +44,7 @@ footer-links:
   it:
     privacy-policy:
       name: "Privacy policy"
-      url: "/it/privacy-policy"
+      url: "https://www.polito.it/privacy/"
     contatti:
       name: "Contatti"
       url: "/it/contatti"
