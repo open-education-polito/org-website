@@ -15,7 +15,7 @@ Il software utilizzato per creare i corsi on line e' openEdx. EDX è stato svilu
 
 
 <div style="text-align: center; padding: 2em;">
-<a class="btn btn-success btn-lg btn-icon" href="https://openedx.polito.it">
+<a class="btn btn-success btn-lg btn-icon" href="http://openedx.polito.it">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
