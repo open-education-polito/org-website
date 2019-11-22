@@ -33,14 +33,15 @@ testo. I riferimenti ai videogiochi didattici si possono trovare nella sezione
 [videogiochi](videogiochi) di questo portale web.
 
 <div style="text-align: center; padding: 2em;">
-<button class="btn btn-success btn-lg btn-icon"  href="../../assets/repo/informaticagrandipiccini.pdf">
+<a class="btn btn-success btn-lg btn-icon"
+href="../../assets/repo/libro_informatica_grandi_piccini.pdf">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
 </svg>
 </span>
 <span>Scarica il libro</span>
-</button>
+</a>
 </div>
 
 ## Passo dopo passo impariamo a programmare con Python
