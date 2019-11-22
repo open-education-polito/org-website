@@ -35,7 +35,7 @@ sophia:
   iniziali: SD
   status: member 
 venuto:
-  name: Enrico
+  name: Enrico Venuto
   pic:
   role: Politecnico di Torino
   iniziali: EV
@@ -51,4 +51,10 @@ gabriele:
   pic: /assets/images/gabriele.jpg
   role: Politecnico di Torino 
   iniziali: GC
+  status: member
+andrea:
+  name: Andrea Rivetti
+  pic: /assets/images/andrea.jpg
+  role: TOP-IX
+  iniziali: AR
   status: member
