@@ -1,20 +1,4 @@
 ---
 ---
 
-.it-hero-wrapper{
-    $size: 400px;
-    $zero: 0;
-    max-height: $size;
-}
-
-.it-hero-text-wrapper{
-    padding-top:60px;
-}
-
-.it-header-slim-wrapper{
-    background: #00264d;
-}
-
-.it-header-center-wrapper, .it-header-navbar-wrapper{
-    background:#004080;
-}
+@import 'assets/css/style';
