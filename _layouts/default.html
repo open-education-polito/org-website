@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.data.t.name[page.lang] }} – {{ site.data.t.description[page.lang] }}</title>
   {%- include styles.html -%}
   {%- include meta.html -%}
 </head>
