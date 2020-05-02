@@ -1,3 +1,4 @@
+<!-- Include meta -->
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,25 +15,6 @@
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicons/favicon.ico">
 <meta name="msapplication-config" content="{{ site.baseurl }}/assets/images/favicons/browserconfig.xml">
 <meta name="theme-color" content="#0066CC">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/teamdigitaleIT">
-<meta name="twitter:creator" content="Team per la Trasformazione Digitale">
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
-<meta name="twitter:image" content="{{ site.baseurl }}{{ site.social-card }}">
-
-<!-- Facebook -->
-<meta property="og:url" content="/">
-<meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
-<meta property="og:type" content="website">
-<meta property="og:image" content="{{ site.baseurl | replace: 'https://', 'http://' }}{{ site.social-card }}">
-<meta property="og:image:secure_url" content="{{ site.baseurl }}{{ site.social-card }}">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 
 {% if site.noindex %}
 <!-- Robots -->
