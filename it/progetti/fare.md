@@ -44,4 +44,17 @@ Dato il rilevante successo e la diffusione della prima versione di FARE il
 gruppo, forte dei riscontri ottenuti da parte di tutti i soggetti interessati
 nel suo uso, sta attualmente sviluppando una nuova versione del portale. 
 Per seguire gli avanzamenti o supportarne lo sviluppo è possibile consultare la
-pagina [del repository](https://github.com/open-education-polito/fare-invenio).
+pagina [del repository](https://github.com/open-education-polito/fare-platform).
+
+<div style="text-align: center; padding: 2em;">
+<a class="btn btn-success btn-lg btn-icon" href="https://github.com/open-education-polito/fare-platform">
+<span class="rounded-icon">
+<svg class="icon icon-success">
+<use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+</svg>
+</span>
+<span>Sviluppa con noi</span>
+</a>
+</div>
+
+
