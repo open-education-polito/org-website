@@ -11,5 +11,4 @@ Giovedi 7 maggio, alle ore 18, verra' presentata in  Rete le modalità di uso de
 
 La partecipazione è assolutamente libera. Occorre collegarsi a [fare[(https://fare.polito.it/fare/meeting) ed entrare nella stanza 1.
 
-Link alla conferenza [link
 ](https://fare.polito.it/fare/meeting)
