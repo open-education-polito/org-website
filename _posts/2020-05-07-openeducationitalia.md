@@ -1,6 +1,6 @@
 ---
 layout: post
-title: presentazione portale FARE 
+title: Presentazione del portale FARE 
 categories: [news]
 tags: [news]
 lang: it
