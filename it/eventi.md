@@ -1,5 +1,5 @@
 ---
-layout: simple_page
+layout: simple-page
 title: Eventi 
 lang: it
 ref: eventi
