@@ -3,7 +3,6 @@ layout: simple_page
 title: Eventi 
 lang: it
 ref: eventi
-ref: eventi
 permalink: /it/eventi
 order: 4
 ---
