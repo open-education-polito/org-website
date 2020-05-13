@@ -16,12 +16,13 @@ E' possibile visualizzare il Webinar al seguente link: [Webinar FARE
 
 
 <div style="text-align: center; padding: 2em;">
-<button class="btn btn-success btn-lg btn-icon"  href="../assets/repo/BBBv2.pdf">
+<a class="btn btn-success btn-lg btn-icon"
+href="../assets/repo/BBBv2.pdf">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
 </svg>
 </span>
 <span>Scarica la presentazione</span>
-</button>
+</a>
 </div>
