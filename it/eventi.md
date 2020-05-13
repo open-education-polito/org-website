@@ -9,7 +9,7 @@ order: 4
 ---
 
 
-## 7 maggio 2020 Webminar FARE 
+## 7 maggio 2020 Webinar FARE 
 Giovedi 7 maggio, alle ore 18, e' stata presentata in Rete la modalità di uso del portale FARE per l’attivazione e l’uso di videolezioni o videoconferenze.
 
 E' possibile visualizzare il Webminar al seguente link: [Webminar FARE
@@ -26,4 +26,3 @@ E' possibile visualizzare il Webminar al seguente link: [Webminar FARE
 <span>Scarica la presentazione</span>
 </button>
 </div>
-
