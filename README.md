@@ -22,7 +22,7 @@ http://localhost:4000 without any subpath.
 
 # Copyright note
 
-This website is build by @libremente.  
+This website is build by @libremente for Open Education Polito.
 Copyright `<surf> AT <libremente> DOT <eu>`.
 
 ## Base theme 
