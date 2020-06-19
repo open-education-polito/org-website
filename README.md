@@ -25,6 +25,7 @@ http://localhost:4000 without any subpath.
 This website is build by @libremente for Open Education Polito.
 Copyright `<surf> AT <libremente> DOT <eu>`.
 
+
 ## Base theme 
 The base theme is
 [design-jekyll-theme](https://github.com/italia/design-jekyll-theme)
