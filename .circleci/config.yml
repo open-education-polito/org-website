@@ -19,9 +19,13 @@ jobs:
       - run: bundle exec jekyll build --config _prod.yml
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx 
       - run: 
-          name: Push on server
+          name: Check
           command: |
-            rsync --delete -avP -e "ssh -p $PORT" ./_site/ $USER@$SERVER:/var/www/html/
+            ssh -p $PORT $USER@$SERVER -vvv
+      #- run: 
+      #    name: Push on server
+      #    command: |
+      #      rsync --delete -avP -e "ssh -p $PORT" ./_site/ $USER@$SERVER:/var/www/html/
 
 workflows:
   version: 2
