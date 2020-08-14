@@ -10,12 +10,22 @@ jobs:
       - JEKYLL_ENV: "production"
     steps:
       - checkout
-      - run: gem install bundler
-      - run: bundle install
+			- run: bundle clean --force
+		  - restore_cache:
+      	keys:
+        	# when lock file changes, use increasingly general patterns to restore cache
+        	- v1-gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+        	- v1-gem-cache-{{ arch }}-{{ .Branch }}-
+        	- v1-gem-cache-{{ arch }}-
+		  - run: bundle install
+  		- save_cache:
+      	paths:
+        	- ~/.bundle
+      	key: v1-gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
       - add_ssh_keys:
           fingerprints:
             - "af:2d:fd:58:99:12:3d:68:4e:4b:b1:d8:0f:8f:44:64"
-      - run: ssh-keyscan -p $PORT $SERVER -H >> ~/.ssh/known_hosts
+      - run: ssh-keyscan -p $PORT $HOST-H >> ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
       - run: bundle exec jekyll build --config _prod.yml
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx 
