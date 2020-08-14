@@ -15,14 +15,14 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "af:2d:fd:58:99:12:3d:68:4e:4b:b1:d8:0f:8f:44:64"
-      - run: ssh-keyscan openeducation.polito.it > ~/.ssh/known_hosts
+      - run: ssh-keyscan -p $PORT $SERVER -H >> ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
       - run: bundle exec jekyll build --config _prod.yml
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx 
       - run: 
           name: Push on server
           command: |
-            i=1; until rsync --delete -avP ./_site/ circle@openeducation.polito.it:/var/www/html/; do echo $((i++)) && sleep 1; done
+            i=1; until rsync --delete -avP -e 'ssh -p $PORT' ./_site/ $USER@$HOST:/var/www/html/; do echo $((i++)) && sleep 1; done
 
 workflows:
   version: 2
