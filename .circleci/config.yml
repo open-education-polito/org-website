@@ -10,6 +10,7 @@ jobs:
       - JEKYLL_ENV: "production"
     steps:
       - checkout
+      - run: gem install bundler
       - run: bundle clean --force
       - restore_cache:
           keys:
