@@ -10,7 +10,7 @@ jobs:
       - JEKYLL_ENV: "production"
     steps:
       - checkout
-			- run: bundle clean --force
+      - run: bundle clean --force
 		  - restore_cache:
       	keys:
         	# when lock file changes, use increasingly general patterns to restore cache
