@@ -22,7 +22,7 @@ jobs:
       - run: 
           name: Push on server
           command: |
-            i=1; until rsync --delete -avP -e 'ssh -p $PORT' ./_site/ $USER@$HOST:/var/www/html/; do echo $((i++)) && sleep 1; done
+            i=1; until rsync --delete -avP -e "ssh -p $PORT" ./_site/ $USER@$HOST:/var/www/html/; do echo $((i++)) && sleep 1; done
 
 workflows:
   version: 2
