@@ -36,7 +36,7 @@ suo creatore è il programmatore olandese Guido van Rossum.
 Questa stesura fa riferimento alla versione 3.X. del linguaggio.
 
 <div style="text-align: center; padding: 2em;">
-<a class="btn btn-success btn-lg btn-icon" href="https://openeducation.polito.it/libro">
+<a class="btn btn-success btn-lg btn-icon" href="https://openeducation.polito.it/libro/index.html">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
