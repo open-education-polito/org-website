@@ -8,10 +8,11 @@ order: 20
 ---
 
 Il gruppo si riunisce presso l'ufficio del Professor *Angelo Raffaele Meo* situato al
-terzo piano del DAUIN. 
+terzo piano del Dipartimento di Automatica e Informatica presso il Politecnico
+di Torino. 
 
 Per contattare il gruppo di lavoro è possibile utilizzare l'indirizzo mail <a
-href="mailto:fare@polito.it">fare@polito.it</a>.
+href="mailto:fare@polito.it">fare [AT] polito [DOT] it</a>.
 
 Segue una lista dei membri attivi del progetto e dei collaboratori in
 ordine alfabetico.
