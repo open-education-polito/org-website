@@ -5,7 +5,7 @@ jobs:
   # how to reach the production site.
   build:
     docker:
-      - image: circleci/ruby:2.6.0-node-browsers
+      - image: circleci/ruby:2.7-node-browsers
     environment:
       - JEKYLL_ENV: "production"
     steps:
@@ -16,7 +16,7 @@ jobs:
           fingerprints:
             - "af:2d:fd:58:99:12:3d:68:4e:4b:b1:d8:0f:8f:44:64"
       - run: ssh-keyscan -p $PORT $HOST -H >> ~/.ssh/known_hosts
-      - run: which rsync || sudo apt-get install rsync
+      - run: which rsync || sudo apt-get install rsync 
       - run: bundle exec jekyll build --config _prod.yml
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx 
       - run: 
