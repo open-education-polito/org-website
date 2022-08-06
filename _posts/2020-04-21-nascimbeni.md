@@ -12,4 +12,4 @@ Nel documento viene analizzata la situazione delle risorse di educazione aperta 
 Tra le piattaforme e le risorse accessibili viene discussa FARE. 
 
 E' possibile accedere al capitolo nel seguente link [capitolo
-](https://www.researchgate.net/publication/340141300_Open_Educational_Resources_in_Italy)
+](https://link.springer.com/chapter/10.1007/978-981-15-3040-1_4)
