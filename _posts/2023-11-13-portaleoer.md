@@ -7,6 +7,18 @@ lang: it
 ref: new
 ---
 
+<div style="text-align: center; padding: 2em;">
+<a class="btn btn-success btn-lg btn-icon" href="../assets/20231113_archivio_nazionale_materiale_didattico.pdf">
+<span class="rounded-icon">
+<svg class="icon icon-success">
+<use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+</svg>
+</span>
+<span>Scarica il documento in PDF</span>
+</a>
+</div>
+
+
 Attualmente l’archivio nazionale delle “O.E.R.” o “Open Education Resources“ 
 (secondo la nota definizione di UNESCO), ossia del materiale didattico libero
 (prevalentemente in lingua italiana) è allocato su una macchina del Politecnico
