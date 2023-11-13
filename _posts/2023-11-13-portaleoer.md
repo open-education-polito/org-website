@@ -8,7 +8,7 @@ ref: new
 ---
 
 <div style="text-align: center; padding: 2em;">
-<a class="btn btn-success btn-lg btn-icon" href="../assets/20231113_archivio_nazionale_materiale_didattico.pdf">
+<a class="btn btn-success btn-lg btn-icon" href="../assets/repo/20231113_archivio_nazionale_materiale_didattico.pdf">
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
