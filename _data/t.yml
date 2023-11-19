@@ -49,6 +49,6 @@ footer-links:
       name: "Contatti"
       url: "/it/contatti"
     sorgente-pagina:
-      name:"Sorgente pagina"
+      name: "Sorgente pagina"
       url: "https://github.com/open-education-polito/website"
 
