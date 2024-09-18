@@ -31,6 +31,10 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build --config _prod.yml
 
+      - name: Add server to known_hosts
+        run: |
+          ssh-keyscan -p ${{ secrets.PORT }} ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+
       - name: Deploy to Server
         env:
           PORT: ${{ secrets.PORT }}
