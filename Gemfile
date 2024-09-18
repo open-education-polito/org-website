@@ -1,6 +1,16 @@
 source 'https://rubygems.org'
+
 gem 'jekyll', '~> 4.3.3'
 gem 'jekyll-sitemap', '~> 1.4.0'
 gem 'jekyll-feed', '~> 0.17.0'
-# install html-proofer
-gem "html-proofer"
+gem 'html-proofer', '~> 3.19.3'
+gem 'addressable', '~> 2.8.6'
+gem 'nokogiri', '~> 1.15.2'
+gem 'parallel', '~> 1.21.0'
+gem 'rainbow', '~> 3.0.0'
+gem 'typhoeus', '~> 1.4.0'
+gem 'public_suffix', '~> 5.0.4'
+gem 'mini_portile2', '~> 2.8.2'
+gem 'racc', '~> 1.7.1'
+gem 'ethon', '~> 0.15.0'
+gem 'ffi', '~> 1.16.3'
