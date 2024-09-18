@@ -94,10 +94,10 @@ utilizzando tranquillamente il proprio browser.
 </div>
 
 Per rendere l'esperienza di studio ancora più coinvolgente abbiamo realizzato una versione interattiva del libro!
-La puoi utilizzare direttamente qui:
+Scopri di più: 
 
 <div style="text-align: center; padding: 2em;">
-<a class="btn btn-success btn-lg btn-icon" href="https://openeducation.polito.it/libro/" >
+<a class="btn btn-success btn-lg btn-icon" href="libro-interattivo.md" >
 <span class="rounded-icon">
 <svg class="icon icon-success">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
