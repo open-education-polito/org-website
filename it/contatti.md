@@ -11,8 +11,7 @@ Il gruppo si riunisce presso l'ufficio del Professor *Angelo Raffaele Meo* situa
 terzo piano del Dipartimento di Automatica e Informatica presso il Politecnico
 di Torino. 
 
-Per contattare il gruppo di lavoro è possibile utilizzare l'indirizzo mail <a
-href="mailto:fare@polito.it">fare [AT] polito [DOT] it</a>.
+Per contattare il gruppo di lavoro è possibile utilizzare l'indirizzo mail meo [AT] polito [DOT] it.
 
 Segue una lista dei membri attivi del progetto e dei collaboratori in
 ordine alfabetico.
