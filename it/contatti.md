@@ -17,13 +17,13 @@ ordine alfabetico.
 ### Membri 
 {% include people.html active='member'%}
 
-{% assign collaborators = site.data.people | where: "active", "collaborator" %}
+{% assign collaborators = site.data.people | where: "status", "collaborator" %}
 {% if collaborators.size > 0 %}
 ### Collaboratori
   {% include people.html active='collaborator' %}
 {% endif %}
 
-{% assign ex = site.data.people | where: "active", "ex" %}
+{% assign ex = site.data.people | where: "status", "ex" %}
 {% if ex.size > 0 %}
 ### Hanno collaborato
   {% include people.html active='ex' %}
