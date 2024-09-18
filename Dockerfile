@@ -1,28 +1,27 @@
-# Use the official Ruby image as a parent image
-FROM ruby:2.7
+# Use a specific Ruby version for consistency
+FROM ruby:3.1
 
-# Install dependencies
+# Install dependencies and clean up to reduce image size
 RUN apt-get update -qq && \
-    apt-get install -y build-essential libpq-dev nodejs git
+    apt-get install -y build-essential libpq-dev nodejs git && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
 
-# Copy the Gemfile and Gemfile.lock into the container
-COPY Gemfile Gemfile.lock ./
+# Copy Gemfile and Gemfile.lock
+COPY Gemfile ./
 
-# Install gems
-RUN gem install bundler -v 2.3.26
-RUN bundle install
+# Install Bundler and gems
+RUN gem install bundler
+RUN bundle install --jobs 4 --retry 5
 
 # Copy the rest of the application code
 COPY . .
-
-# Build the Jekyll site
-RUN bundle exec jekyll build --config _prod.yml
 
 # Expose the port the app runs on
 EXPOSE 4000
 
 # Define the command to run the app
-CMD ["jekyll", "serve", "--config", "_prod.yml"]
+CMD ["jekyll", "serve", "--config", "_prod.yml", "--host", "0.0.0.0", "--port", "4000"]
