@@ -93,6 +93,21 @@ utilizzando tranquillamente il proprio browser.
 </a>
 </div>
 
+Per rendere l'esperienza di studio ancora più coinvolgente abbiamo realizzato una versione interattiva del libro!
+La puoi utilizzare direttamente qui:
+
+<div style="text-align: center; padding: 2em;">
+<a class="btn btn-success btn-lg btn-icon" href="https://openeducation.polito.it/libro/" >
+<span class="rounded-icon">
+<svg class="icon icon-success">
+<use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use>
+</svg>
+</span>
+<span>Libro interattivo</span>
+</a>
+</div>
+
+
 ## La storia dell'informatica
 Questo libro è destinato ai ragazzi di età compresa tra i 10 e i 14 anni circa.
 Abbiamo realizzato questo libro lontani da ogni intento commerciale, con il
