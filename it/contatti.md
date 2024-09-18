@@ -7,9 +7,7 @@ permalink: /it/contatti
 order: 20
 ---
 
-Il gruppo si riunisce presso l'ufficio del Professor *Angelo Raffaele Meo* situato al
-terzo piano del Dipartimento di Automatica e Informatica presso il Politecnico
-di Torino. 
+Il gruppo si riunisce prevalentemente online. 
 
 Per contattare il gruppo di lavoro è possibile utilizzare l'indirizzo mail meo [AT] polito [DOT] it.
 
@@ -19,8 +17,15 @@ ordine alfabetico.
 ### Membri 
 {% include people.html active='member'%}
 
+{% assign collaborators = site.data.people | where: "active", "collaborator" %}
+{% if collaborators.size > 0 %}
 ### Collaboratori
-{% include people.html active='collaborator'%}
+  {% include people.html active='collaborator' %}
+{% endif %}
 
+{% assign ex = site.data.people | where: "active", "ex" %}
+{% if ex.size > 0 %}
 ### Hanno collaborato
-{% include people.html active='ex'%}
+  {% include people.html active='ex' %}
+{% endif %}
+
