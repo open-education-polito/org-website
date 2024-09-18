@@ -33,25 +33,25 @@ sophia:
   pic:
   role: Indipendente
   iniziali: SD
-  status: member 
+  status: ex 
 venuto:
   name: Enrico Venuto
   pic:
   role: Politecnico di Torino
   iniziali: EV
-  status: collaborator 
+  status: member 
 eugenio:
   name: Eugenio Corso
   pic: /assets/images/eugenio.jpg
   role: Politecnico di Torino
   iniziali: EC
-  status: member
+  status: ex
 gabriele:
   name: Gabriele Corso
   pic: /assets/images/gabriele.jpg
   role: Politecnico di Torino 
   iniziali: GC
-  status: member
+  status: ex
 andrea:
   name: Andrea Rivetti
   pic: /assets/images/andrea.jpg

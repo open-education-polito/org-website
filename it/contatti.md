@@ -21,3 +21,6 @@ ordine alfabetico.
 
 ### Collaboratori
 {% include people.html active='collaborator'%}
+
+### Hanno collaborato
+{% include people.html active='ex'%}
