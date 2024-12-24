@@ -4,3 +4,4 @@ vendor
 .bundle
 *.swp
 .jekyll-cache
+.DS_Store
