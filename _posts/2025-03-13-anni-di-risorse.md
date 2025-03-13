@@ -1,13 +1,11 @@
 ---
 layout: post
-title: 25 anni di Open Education 
+title: 25 anni di Open Educational Resources da Open Education Polito 
 categories: [news]
 tags: [news]
 lang: it
 ref: new
 ---
-
-# 25 anni di Open Educational Resources: il contributo del Gruppo Didattico
 
 Da oltre 25 anni, il *Gruppo Didattico* del Dipartimento di Automatica
 e Informatica del Politecnico di Torino opera a titolo gratuito per sviluppare
@@ -28,21 +26,36 @@ apprendimento.
 ### **FARE - Free Architecture for Remote Education** 
 
 Un vasto archivio di materiali didattici e divulgativi liberi, arricchito da
-strumenti tecnologici per la creazione di corsi e contenuti interattivi. Tra
-gli altri possiamo citare:
+strumenti tecnologici utili per la creazione di corsi e contenuti interattivi. Tra gli altri possiamo citare:
 
-- **Oltre 1500 filmati** di conferenze divulgative
-- **150 conferenze** dell’Accademia delle Scienze di Torino
-- **Materiali didattici interattivi** per varie discipline
-- **Libri di testo** per la scuola primaria e secondaria
+* un ambiente di videoconferenza;
+* un ambiente di programmazione in Python 3 online.
 
-[Visita il sito!](https://fare.polito.it)
+Negli anni il progetto ha visto diverse revisioni:
+
+* [FARE 1.0](https://fare.polito.it) (2012): la prima revisione, che integrava diversi strumenti interattivi utili per la didattica online;
+* [FARE 2.0](https://testfare.polito.it) (2018): la seconda revisione del progetto di ricerca.
+
 
 ### **Open Education Archive** 
 
-Un nuovo progetto di ricerca che mira a creare un archivio robusto, scalabile
-e resiliente, capace di archiviare grandi quantità di dati. 
+L'esperienza decennale maturata con *FARE* ha portato il gruppo alla creazione di *Open Education Archive*,
+un nuovo progetto di ricerca che mira a creare un archivio robusto, scalabile
+e resiliente, capace di archiviare ingenti quantità di dati. 
 Per contribuire allo sviluppo, visita il [repository GitHub](https://github.com/open-education-polito/openeduarchive).
+
+
+<div style="text-align: center; padding: 2em;">
+<a class="btn btn-success btn-lg btn-icon"
+href="https://openeduarchive.polito.it">
+<span class="rounded-icon">
+<svg class="icon icon-success">
+<use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+</svg>
+</span>
+<span>Visita il nuovo sito web</span>
+</a>
+</div>
 
 ### **Libri di Testo Aperti** 
 
@@ -51,7 +64,7 @@ accesso libero per diffondere la cultura scientifica:
 
 #### *L’informatica raccontata ai grandi e ai piccini* 
 
-Un libro per ragazzi tra i 10 e i 14 anni, integrato con **videogiochi
+Un libro per ragazzi (ma non solo), integrato con **videogiochi
 didattici** per rendere l’apprendimento più coinvolgente.
 
 <div style="text-align: center; padding: 2em;">
@@ -89,7 +102,6 @@ href="../assets/repo/libro_python_3.pdf">
 
 Un simpatico viaggio nella storia dell’informatica.
 
-
 <div style="text-align: center; padding: 2em;">
 <a class="btn btn-success btn-lg btn-icon"
 href="../assets/repo/libro_storia_completo.pdf">
@@ -98,14 +110,13 @@ href="../assets/repo/libro_storia_completo.pdf">
 <use xlink:href="../../assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
 </svg>
 </span>
-<span>Vai al libro in formato PDF</span>
+<span>Scarica il libro in formato PDF</span>
 </a>
 </div>
 
 ### Il libro interattivo
 
-Il manuale di Python 3 è stato portato sul web per renderlo un **ambiente di
-sviluppo web interattivo**, facile da utilizzare per tutti. 
+Il manuale di Python 3 è stato *portato* sul web creando un **ambiente di sviluppo web interattivo**, facile da utilizzare per tutti. 
 
 <div style="text-align: center; padding: 2em;">
 <a class="btn btn-success btn-lg btn-icon"
@@ -122,9 +133,8 @@ href="https://openeducation.polito.it/libro/">
 
 ### **Jimmy Jumbo, un videogioco didattico interattivo** 
 
-Basati sul libro *L’informatica raccontata ai grandi e ai piccini*, 
-abbiamo ideato un videogioco interattivo che aiuta a consolidare alcuni concetti
-informatici fondamentali.
+Partendo dal libro *L’informatica raccontata ai grandi e ai piccini*, 
+abbiamo ideato diversi videogiochi interattivi che aiutano a consolidare alcuni concetti informatici fondamentali.
 Sono disponibili su tutte le piattaforme e includono:
 
 - **Conversione digitale-binario-digitale**
@@ -152,11 +162,8 @@ href="https://fare.polito.it/gioco/">
 Oltre alla produzione di risorse, il gruppo ha contribuito alla creazione di
 strumenti di software libero per facilitare l’accesso all’educazione
 digitale. Tutti i software sviluppati sono rilasciati su 
-[GitHub](https://github.com/open-education-polito). Il gruppo offre supporto per
-la condivisione del codice e accoglie collaborazioni nel campo dell’educazione
-aperta.
+[GitHub](https://github.com/open-education-polito). Il gruppo offre supporto per la condivisione del codice e accoglie collaborazioni nel campo dell’educazione aperta.
 
 L’Open Education è un movimento in continua espansione e il lavoro del Gruppo
 Didattico rappresenta un contributo importante alla sua diffusione. Per
-scoprire di più sui progetti e accedere alle risorse, visita il resto del sito
-web di [Open Education Polito](https://openeducation.polito.it).
+scoprire di più sui progetti e accedere alle risorse, visita il resto del sito web di [Open Education Polito](https://openeducation.polito.it).
