@@ -7,7 +7,7 @@ permalink: /it/gruppo
 order: 2
 ---
 
-Da poco più di diciotto anni, presso il **Dipartimento di Automatica
+Da più di 25 anni, presso il **Dipartimento di Automatica
 e Informatica del Politecnico di Torino**, e in stretta collaborazione con la
 scuola *“Amedeo Peyron” di Torino* (che ha la responsabilità della gestione
 della *“Scuola in Ospedale” della Regione Piemonte*), opera a titolo gratuito un
