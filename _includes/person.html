@@ -3,7 +3,7 @@
 <div class="col-4" style="text-align: center; padding: 2.5em;">
   <div class="avatar size-xxl">
   {% if p.pic != nil %}
-    <img src="{{ p.pic }}"> 
+    <img src="{{ p.pic }}" alt="{{ p.name }}"> 
   {% else %}
     <p aria-hidden="true">{{ p.iniziali }}</p>
     <span class="sr-only">{{ p.name }}</span>
