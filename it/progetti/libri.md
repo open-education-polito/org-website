@@ -151,3 +151,6 @@ alle necessarie correzioni.
 </a>
 </div>
 
+## Risorse open source correlate
+
+Per chi desidera approfondire lo sviluppo web e TypeScript, è disponibile [The Concise TypeScript Book (edizione italiana)](https://gibbok.github.io/typescript-book/it-it/), una guida gratuita e open source.
