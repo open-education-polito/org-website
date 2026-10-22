@@ -26,7 +26,7 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --config _prod.yml
 
       - name: Check internal links and images
         run: bundle exec htmlproofer ./_site --disable-external
