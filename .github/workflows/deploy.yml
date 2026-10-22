@@ -5,46 +5,50 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+
+# Never run two deploys at once; let a running deploy finish instead of killing it mid-rsync
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@e5517072e87f198d9533967ae13d97c11b604005 # v1.99.0
         with:
           ruby-version: 3.4
-
-      - name: Cache Bundler dependencies
-        uses: actions/cache@v4
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - name: Install Bundler and Dependencies
-        run: |
-          gem install bundler -v 2.3.26
-          bundle install
-
-      - name: Add SSH Deploy Key
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          bundler-cache: true
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --config _prod.yml
 
+      # Loaded after the build so Jekyll and its gems never see the deploy key
+      - name: Add SSH Deploy Key
+        uses: webfactory/ssh-agent@dc588b651fe13675774614f8e6a936a468676387 # v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      # SSH_KNOWN_HOSTS is pinned in repo secrets, not fetched at deploy time
       - name: Add server to known_hosts
+        env:
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
         run: |
-          ssh-keyscan -p ${{ secrets.PORT }} ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
 
       - name: Deploy to Server
         env:
           PORT: ${{ secrets.PORT }}
           HOST: ${{ secrets.HOST }}
           USER: ${{ secrets.USER }}
-        run: rsync --delete -avP -e "ssh -p $PORT" ./_site/ $USER@$HOST:/var/www/html/
+        run: rsync --delete -av -e "ssh -p $PORT -o StrictHostKeyChecking=yes" ./_site/ "$USER@$HOST":/var/www/html/

@@ -8,7 +8,7 @@ ref: new
 ---
 
 Open Education Polito ha sviluppato e reso disponibili strumenti per la didattica liberamente utilizzabili: 
-* creare corsi utilizzando un'istanza di [Open edX](http://corsiopen.polito.it) personalizzata;
+* creare corsi utilizzando un'istanza di [Open edX](https://corsiopen.polito.it) personalizzata;
 * effettuare e partecipare a videoconferenze tramite il nostro portale [FARE](https://fare.polito.it/fare/meeting);
 * utilizzare e inserire materiale per la didattica purche' sia libero su [FARE](https://fare.polito.it/).
 
