@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.4.1'
 gem 'jekyll-sitemap', '~> 1.4.0'
-gem 'jekyll-feed', '~> 0.17.0'
+gem 'jekyll-feed', '~> 0.18.0'
 gem 'html-proofer', '~> 5.2'
 gem 'addressable', '~> 2.9.0'
 gem 'nokogiri', '~> 1.19.0'
