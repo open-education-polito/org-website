@@ -143,7 +143,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-musl)
       racc (~> 1.4)
-    parallel (1.28.0)
+    parallel (2.3.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pdf-reader (2.16.0)
@@ -234,7 +234,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.4.0)
   mini_portile2 (~> 2.8.2)
   nokogiri (~> 1.19.0)
-  parallel (~> 1.28.0)
+  parallel (~> 2.3.0)
   public_suffix (~> 6.0.1)
   racc (~> 1.8.1)
   rainbow (~> 3.1.1)
@@ -306,7 +306,7 @@ CHECKSUMS
   nokogiri (1.19.4-x86_64-darwin) sha256=7fd17057d3e1f00e9954a74b3cd76595d3d4a5ef233b7ed9599047c204f70551
   nokogiri (1.19.4-x86_64-linux-gnu) sha256=379fae440b28915e3f19d752ce2dcf8465ed2b2fbefd2a7ca0dd497bc981a06a
   nokogiri (1.19.4-x86_64-linux-musl) sha256=17dfb7c1fa194ae02fbf7c51a7afc8d278045ab3fdacfd86f91d02d7b274470b
-  parallel (1.28.0) sha256=33e6de1484baf2524792d178b0913fc8eb94c628d6cfe45599ad4458c638c970
+  parallel (2.3.0) sha256=f75a3e904101ce6a1ccb6b8dc800cbafd42166d83330192438dcf29395167a6f
   pathutil (0.16.2) sha256=e43b74365631cab4f6d5e4228f812927efc9cb2c71e62976edcb252ee948d589
   pdf-reader (2.16.0) sha256=bf1b5564c085264d8279bde3cf1467778b75841494d20c0fe7da3dad475f3732
   public_suffix (6.0.2) sha256=bfa7cd5108066f8c9602e0d6d4114999a5df5839a63149d3e8b0f9c1d3558394
