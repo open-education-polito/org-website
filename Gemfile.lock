@@ -22,7 +22,7 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    ethon (0.18.0)
+    ethon (0.19.0)
       ffi (>= 1.15.0)
       logger
     eventmachine (1.2.7)
@@ -226,7 +226,7 @@ PLATFORMS
 
 DEPENDENCIES
   addressable (~> 2.9.0)
-  ethon (~> 0.18.0)
+  ethon (~> 0.19.0)
   ffi (~> 1.17.0)
   html-proofer (~> 5.2)
   jekyll (~> 4.4.1)
@@ -253,7 +253,7 @@ CHECKSUMS
   console (1.38.0) sha256=35b82f59130e95e9be6b832d9e539c8b3988fc192e4a8e9a86ab4922f44ad5de
   csv (3.3.6) sha256=aba61e7e507a66f03d45cb1f3c4b6359861c3504038b422962875dce099e4456
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
-  ethon (0.18.0) sha256=b598afc9f30448cb068b850714b7d6948e941476095d04f90a4ac65b8d6efcb2
+  ethon (0.19.0) sha256=dde6e3d9b276a183c623081b9524a22d34f13df82ae54656171601157e74a012
   eventmachine (1.2.7) sha256=994016e42aa041477ba9cff45cbe50de2047f25dd418eba003e84f0d16560972
   ffi (1.17.4) sha256=bcd1642e06f0d16fc9e09ac6d49c3a7298b9789bcb58127302f934e437d60acf
   ffi (1.17.4-aarch64-linux-gnu) sha256=b208f06f91ffd8f5e1193da3cae3d2ccfc27fc36fba577baf698d26d91c080df
